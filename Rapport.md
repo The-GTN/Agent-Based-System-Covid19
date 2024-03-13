@@ -152,7 +152,7 @@ Pour structurer notre environnement social, différents choix sont possibles. No
 Cependant nous allons plutôt nous tourner vers un graphe à structure aléatoire, pour simuler les interactions humaines. Ce choix nous semble plus adapté face à la nature imprévisible de ces relations. Néanmoins plusieurs choix de graphe à structure aléatoire existent, comme par exemple le graphe Erdos-Renyi <a href="#13">(13)</a> où chaque couple de noeuds a la même probabilité d'être relié. Pour palier à ce défaut, il existe le concept de graphe invariant d'échelle <a href="#14">(14)</a>, où les degrés des noeuds du graphe suivent une loi de puissance. Plus précisement, il s'agit d'un graphe dont la proportion de nœuds de degré k, noté P(k) suit la loi :
 </p>
 
-<img src="media/eq.png" style="margin-left:50%;" />
+<img src="media/eq.PNG" style="margin-left:50%;" />
 
 avec r étant l'exposant d'invariance d'échelle (strictement positif)
 
@@ -166,13 +166,13 @@ Pour le tracé des graphes, nous utilisons la librairie NetworkX <a href="#18">(
 
 <div style="display:flex;">
 <figure style="text-align:center;margin-right:30px;">
-<img src="media/complet.png" alt="complet" />
+<img src="media/complet.PNG" alt="complet" />
 <figcaption>
 <a href="https://fr.wikipedia.org/wiki/Graphe_complet">Complet</a>
 </figcaption>
 </figure>
 <figure style="text-align:center">
-<img src="media/circulaire.png" alt="cycle"/>
+<img src="media/circulaire.PNG" alt="cycle"/>
 <figcaption>
 <a href="https://fr.wikipedia.org/wiki/Graphe_cycle">Cycle</a>
 </figcaption>
@@ -180,13 +180,13 @@ Pour le tracé des graphes, nous utilisons la librairie NetworkX <a href="#18">(
 </div>
 <div style="display:flex;">
 <figure style="text-align:center">
-<img src="media/erdos.png" alt="erdos renyi"/>
+<img src="media/erdos.PNG" alt="erdos renyi"/>
 <figcaption>
 <a href="https://users.renyi.hu/~p_erdos/1960-10.pdf">Erdos-Renyi</a>
 </figcaption>
 </figure>
 <figure style="text-align:center">
-<img src="media/barabasi.png" alt="barabasi albert"/>
+<img src="media/barabasi.PNG" alt="barabasi albert"/>
 <figcaption>
 <a href="https://barabasi.com/f/67.pdf">Barabasi-Albert</a>
 </figcaption>
@@ -222,7 +222,7 @@ Pour que la simulation soit cohérente avec la réalité, il faut récupérer le
 La courbe tracée ci-dessous a été réalisée grâce à la libraire Pyplot <a href="#23">(23)</a> de Python.
 
 <figure style="text-align:center;margin-right:30px;">
-<img src="capture.png" alt="courbe covid"/>
+<img src="media/Capture.PNG" alt="courbe covid"/>
 <figcaption>
 <a href="https://www.data.gouv.fr/fr/datasets/chiffres-cles-concernant-lepidemie-de-covid19-en-france/">data.gouv.fr</a>
 </figcaption>
